@@ -14,6 +14,7 @@ const ShwarmaOrder = require("./assignment1Shwarma");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("www"));
 
+
 app.get("/users/:uname", (req, res) => {
     res.end("Hello " + req.params.uname);
 });
