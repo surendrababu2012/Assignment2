@@ -119,7 +119,7 @@ module.exports = class ShwarmaOrder extends Order {
         if(sAmount != "-1"){
           this.nOrder = sAmount;
         }
-        const sClientID = process.env.SB_CLIENT_ID || AVk-ZHVXc54wtjOnfiksJaE3S5T8hUdkmr4x0rHbBAeT6t-yfh9GKn4iGtkAIVgC5H0O7Ny5Eq3aNYA5
+        const sClientID = process.env.SB_CLIENT_ID || "AVk-ZHVXc54wtjOnfiksJaE3S5T8hUdkmr4x0rHbBAeT6t-yfh9GKn4iGtkAIVgC5H0O7Ny5Eq3aNYA5"
         return(`
         <!DOCTYPE html>
     
